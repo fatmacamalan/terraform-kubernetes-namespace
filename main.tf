@@ -11,3 +11,18 @@ resource "kubernetes_namespace" "example" {
     name = "terraform-example-namespace"
   }
 }
+
+variable "name" {
+  description = "please provide a name for the namespace"
+  type        = string
+  default     = ""
+
+}
+
+
+
+
+
+
+
+  
