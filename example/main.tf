@@ -1,3 +1,4 @@
 module "namespace" {
-  source  = "fatmacamalan/namespace/kubernetes"
+  source = "fatmacamalan/namespace/kubernetes"
+  name   = "test"
 }
